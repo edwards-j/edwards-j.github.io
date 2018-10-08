@@ -1,0 +1,11 @@
+:root {
+    --main-color: #FF6868
+}
+
+.navbar {
+    background-color: var(--main-color) ;
+}
+
+.header {
+    color: var(--main-color)
+}
