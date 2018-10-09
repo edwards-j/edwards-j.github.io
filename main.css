@@ -9,3 +9,9 @@
 .header {
     color: var(--main-color)
 }
+
+.hero {
+    background: url("hero.png"), no-repeat;
+    background-position-x: center !important;
+    background-size: cover;
+}

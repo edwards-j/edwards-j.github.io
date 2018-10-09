@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="flow.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="headerAnim.css">
 
 </head>
 
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
+            <a class="navbar-item" href="#">
                 <img src="img/white-logo.svg" width="112" height="28">
             </a>
 
@@ -36,29 +37,41 @@
         </div>
     </nav>
 
-    <div id="flow">
-        <span class="flow-1"></span>
-        <span class="flow-2"></span>
-        <span class="flow-3"></span>
-    </div>
-
-    <section class="hero is-medium is-dark is-bold">
+    <section class="hero is-medium">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">
+                <h1 class="title tracking-in-expand has-text-white">
                     Hi, I'm Jonathan
                 </h1>
-                <h2 class="subtitle">
-                    Let's make something awesome
-                </h2>
+                <div class="focus-in-contract-bck">
+                    <span class="subtitle has-text-white">Let's make something...</span>
+                    <h1 href="" class="typewrite subtitle has-text-white" data-period="2250" data-type='[ "awesome.", "radical.", "incredible.", "exciting.", "extraordinary."]'>
+                        <span class="wrap"></span>
+                    </h1>
+                </div>
             </div>
+
         </div>
     </section>
 
-    <section>
+    <section class="container">
         <h2 class="is-size-2 header has-text-centered has-text-weight-bold">About</h2>
+        <div class="columns">
+            <p class="column is-6">
+                Lorem ipsum dolor amet asymmetrical 3 wolf moon hashtag brooklyn distillery affogato adaptogen flannel blue bottle. Migas
+                wayfarers shoreditch marfa, schlitz kogi woke live-edge letterpress VHS skateboard vape. Narwhal cray craft
+                beer mustache raclette, lumbersexual next level schlitz art party glossier roof party flannel. Migas mlkshk
+                authentic scenester, mumblecore echo park pitchfork brooklyn williamsburg air plant glossier asymmetrical.
+                Letterpress keytar poutine cloud bread deep v hella. Man bun tacos ramps wayfarers keffiyeh fanny pack franzen.
+                Echo park XOXO snackwave, authentic brunch listicle bitters plaid. Copper mug health goth fam gluten-free
+                biodiesel. Butcher iceland fam swag, truffaut tacos banjo single-origin coffee 3 wolf moon forage man braid
+                craft beer plaid. Mlkshk XOXO affogato, biodiesel af actually etsy lyft health goth polaroid bushwick drinking
+                vinegar jean shorts.
+            </p>
+            <img src="https://placeimg.com/480/640/tech" class="colum is-6">
+        </div>
     </section>
-
+    <script src="typewriter.js"></script>
 </body>
 
 </html>
