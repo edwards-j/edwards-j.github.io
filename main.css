@@ -1,9 +1,21 @@
 :root {
-    --main-color: #FF6868
+    --main-color: #5BABC4;
 }
 
 .navbar {
-    background-color: var(--main-color) ;
+    background-color: var(--main-color) !important;
+    position: sticky !important;
+    top: 0px;
+}
+
+.navbar-item {
+    color:white;
+    transition: all .2s;
+}
+.navbar-item:hover {
+    color: white !important;
+    background-color: transparent !important;
+    transform: scale(1.2);
 }
 
 .header {
@@ -22,5 +34,20 @@ h2 {
 
 .tech-logo {
     height: 100% !important; 
-    padding: 3em !important;
+    padding: 2em !important;
+}
+
+.contact {
+    margin: 1.5em 0;
+}
+
+.contact-type {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+footer {
+    background-color: var(--main-color);
+    height: 60px;
+    width: 100%;
 }
