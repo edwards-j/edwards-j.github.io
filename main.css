@@ -41,7 +41,7 @@ h2 {
 }
 
 .project {
-    margin-bottom: 3.5em !important;
+    margin-bottom: 5em !important;
 }
 
 .project-logo {
@@ -49,11 +49,12 @@ width: 50%;
 }
 
 .bark-logo {
-    width: 23%;    
+    width: 20%;    
     }
 
-.mockup {
-    /* margin: 0 2em; */
+.iphone-mock {
+    display: flex !important;
+    align-items: center !important;
 }
 
 
