@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="flow.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="headerAnim.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
 
 </head>
 
@@ -88,7 +89,9 @@
         <h2 class="is-size-2 header has-text-centered has-text-weight-bold">Projects</h2>
         <div class="columns project">
             <div class="column is-7">
-                <img src="img/logoblack.svg" class="project-logo">
+                <a href="https://progressions-app.herokuapp.com/login">
+                    <img src="img/logoblack.svg" class="project-logo">
+                </a>
                 <p>Progressions is an app to help simplify the songwriting process for beginning guitar players. Users select
                     a key that they want to write a song in, and are then presented with the seven different major and minor
                     chords that make up that key. Upon selecting the chords for their song, the users are shown how to play
@@ -96,6 +99,7 @@
                 <p>My goals for building this application were to get comfortable with React, get practice using Bulma, to not
                     only build an app that worked well, but looked profressional, and lastly, to make something I could be
                     proud of at the end of the day.</p>
+                <p class="has-text-weight-bold prog-link">Check it out <a href="https://progressions-app.herokuapp.com/login">here</a>.</p>
             </div>
             <div class="column is-4 is-offset-1">
                 <img src="img/progressions-mock.png" class="mockup">
@@ -119,8 +123,10 @@
 
         <div class="columns project">
             <div class="column is-7">
-                    <img src="img/bark-logo.svg" class="bark-logo">
-                <p>Bark was the first website I ever made. I had the idea for combining a dog park and a beer garden into one location, so people could hang out with their dogs, but also get a nice craft beer. This is a purely made-up business, but it was great practice with Bootstrap, HTML, and CSS.</p>
+                <img src="img/bark-logo.svg" class="bark-logo">
+                <p>Bark was the first website I ever made. I had the idea for combining a dog park and a beer garden into one
+                    location, so people could hang out with their dogs, but also get a nice craft beer. This is a purely
+                    made-up business, but it was great practice with Bootstrap, HTML, and CSS.</p>
             </div>
             <div class="column is-4 is-offset-1">
                 <img src="img/bark-mock.png" class="mockup">
@@ -129,7 +135,7 @@
     </section>
 
     <section class="container" id="technologies">
-        <h2 class="is-size-2 header has-text-centered has-text-weight-bold">Technologies</h2>
+        <h2 class="is-size-2 header has-text-centered has-text-weight-bold">Technologies I've Worked With</h2>
         <div class="columns">
             <div class="column columns is-mobile">
                 <div class="column tech-logo is-mobile-6">
@@ -188,13 +194,25 @@
 
     <section class="container" id="contact">
         <h2 class="is-size-2 header has-text-centered has-text-weight-bold">Contact</h2>
-        <div>
-            <p class="contact">
-                <span class="contact-type"><i class="fas fa-envelope"></i></span> jonathan.d.edwards92@gmail.com</p>
-            <p class="contact">
-                <span class="contact-type"><i class="fab fa-linkedin"></i></span> https://www.linkedin.com/in/edwardsjd/</p>
-            <p class="contact">
-                <span class="contact-type"><i class="fab fa-github"></i></span> https://github.com/edwards-j</p>
+        <div class="columns">
+            <div class="column columns has-text-centered">
+                <span class="contact-type column">
+                    <i class="fas fa-envelope"></i>
+                    <p class="column contact">jonathan.d.edwards92@gmail.com</p>
+                </span>
+            </div>
+            <div class="column columns">
+                <span class="contact-type column has-text-centered">
+                    <i class="fab fa-linkedin"></i>
+                    <p class="column contact">https://www.linkedin.com/in/edwardsjd/</p>
+                </span>
+            </div>
+            <div class="column columns">
+                <span class="contact-type column has-text-centered">
+                    <i class="fab fa-github"></i>
+                    <p class="column contact">https://github.com/edwards-j</p>
+                </span>
+            </div>
         </div>
     </section>
 
