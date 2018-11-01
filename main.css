@@ -37,7 +37,13 @@ h2 {
     background: url("hero.png"), no-repeat;
     background-position-x: center !important;
     background-size: cover;
-    /* height: 100vh; */
+    position: relative;
+    top: -52px;
+}
+
+.title {
+    font-size: 5em !important;
+    margin-bottom: 0 !important; 
 }
 
 .project {
