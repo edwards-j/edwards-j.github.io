@@ -73,6 +73,18 @@ width: 50%;
     margin: 0 0 1.5em 0;
 }
 
+.contact-icon {
+    width: 15%;
+    transform: scale(1);
+    transition: all .2s;
+    opacity: .75;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
 .contact-type {
     color: var(--main-color);
     font-weight: 600;
