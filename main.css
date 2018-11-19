@@ -41,6 +41,14 @@ h2 {
     top: -52px;
 }
 
+.headshot {
+    overflow: visible;
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/website-headshot.jpg');
+  }
+
 .title {
     font-size: 5em !important;
     margin-bottom: 0 !important; 
@@ -98,4 +106,10 @@ footer {
     background-color: var(--main-color);
     height: 100px;
     width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .headshot {
+        display: none;
+    }
 }
