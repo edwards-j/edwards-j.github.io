@@ -20,6 +20,10 @@
     text-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
 }
 
+.about-me {
+    height: 700px;
+}
+
 .about-me p {
     margin-bottom: 1em;
 }
@@ -42,12 +46,14 @@ h2 {
 }
 
 .headshot {
+    margin-top: -65px;
+    height: auto;
     overflow: visible;
     background-size:cover; 
     background-position:center center; 
     background-repeat:no-repeat; 
     background-image:url('img/website-headshot.jpg');
-  }
+}
 
 .title {
     font-size: 5em !important;
@@ -111,5 +117,18 @@ footer {
 @media only screen and (max-width: 768px) {
     .headshot {
         display: none;
+    }
+
+    .about-me {
+        height: auto;
+    }
+
+    .title {
+        font-size: 4em !important;
+        margin-bottom: 0 !important; 
+    }
+
+    .focus-in-contract-bck{
+        height: 160px !important;
     }
 }
